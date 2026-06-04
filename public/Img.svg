@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Figma Variables */
+
+  /* Spacing */
+  --font-size-8: 8px;
+  --font-size-10: 10px;
+  --font-size-14: 14px;
+  --font-size-22: 22px;
+  --font-size-36: 36px;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+  --font-weight-5001: 500;
+  --font-weight-6001: 600;
+  --font-weight-7001: 700;
+  --item-spacing-9: 9px;
+  --item-spacing-12: 12px;
+  --item-spacing-2-09: 2.09px;
+  --item-spacing-5-41: 5.41px;
+  --item-spacing-l: 48px;
+  --item-spacing-s: 16px;
+  --item-spacing-s1: 24px;
+  --letter-spacing-0-5: -0.5px;
+  --letter-spacing-0-72: -0.72px;
+  --line-height-11: 11px;
+  --line-height-20: 20px;
+  --line-height-22: 22px;
+  --line-height-45: 45px;
+  --line-height-81: 81px;
+  --line-height-19-25: 19.25px;
+  --opacity-50: 0.5;
+  --opacity-100: 1;
+  --opacity-501: 0.5;
+  --stroke-weight-1: 1px;
+  --stroke-weight-11: 1px;
+  --width-1920: 1920px;
+
+  /* Color */
+  --color-azure-85: #c7d2e9;
+  --color-black-0: rgba(0, 0, 0, 0);
+  --color-black-80: rgba(0, 0, 0, 0.8);
+  --color-black-solid: #000;
+  --color-blue-57: #343ced;
+  --color-blue-22-40: rgba(43, 42, 70, 0.4);
+  --color-blue-22-60: rgba(43, 42, 70, 0.6);
+  --color-blue-5-70: rgba(6, 5, 22, 0.7);
+  --color-grey-15: #262626;
+  --color-grey-31: #4f4f4f;
+  --color-grey-65: #a6a6a6;
+  --color-grey-88: #e1e1e1;
+  --color-grey-98: #fafafa;
+  --color-grey-981: #fcfbf8;
+  --color-grey-91-2: #e7e7e7;
+  --color-grey-96-3: #f4f4f4;
+  --color-grey-98-90: rgba(248, 248, 252, 0.9);
+  --color-magenta-21-0: rgba(83, 0, 105, 0);
+  --color-magenta-21-40: rgba(83, 0, 105, 0.4);
+  --color-orange-74: #ffc97b;
+  --color-red-65: #ff4d4d;
+  --color-rose-68: #ff5aad;
+  --color-rose-52-20: rgba(237, 28, 128, 0.2);
+  --color-rose-52-30: rgba(237, 28, 128, 0.3);
+  --color-violet-4: #070014;
+  --color-violet-38: #502799;
+  --color-violet-58: #7d41e8;
+  --color-violet-63: #8642ff;
+  --color-violet-73: #b481f5;
+  --color-violet-29-0: rgba(73, 0, 148, 0);
+  --color-violet-29-54-9: rgba(73, 0, 148, 0.55);
+  --color-violet-4-0: rgba(7, 0, 20, 0);
+  --color-violet-58-30: rgba(133, 45, 249, 0.3);
+  --color-violet-58-40: rgba(133, 45, 249, 0.4);
+  --color-white-0-2: rgba(255, 255, 255, 0);
+  --color-white-solid: #fff;
+  --muted-foreground: #abacc1;
+  --primary: #ed1c80;
+  --sidebar: #060516;
+  --sidebar-accent: #100d26;
+  --sidebar-primary: #ed1c80;
+  --sidebar-primary-foreground: #fff;
+  --sidebar-ring: #852df9;
+
+  /* Font */
+  --font-family-Font-1: Unbounded, Arial, sans-serif;
+  --font-family-Font-2: Mulish, Arial, sans-serif;
+  --font-family-Font-3: Inter, Arial, sans-serif;
+  --font-family-Font-21: Inter, Arial, sans-serif;
+
+  /* Common Style Variables */
+
+  /* Color */
+  --color-crimson: #ff015a;
+  --color-darkslategray: #424059;
+  --color-deeppink: #ff2680;
+  --color-gainsboro-100: #dedee3;
+  --color-midnightblue-100: #391c69;
+  --color-midnightblue-200: #2c1752;
+  --color-slategray: rgba(94, 94, 120, 0.6);
+  --relitalk-site-revamplovableapp-Martinique-40: rgba(43, 42, 70, 0.4);
+  --relitalk-site-revamplovableapp-Martinique-60: rgba(43, 42, 70, 0.6);
+  --relitalk-site-revamplovableapp-White-Haiti: #060516, #fff;
+  --relitalk-site-revamplovableapp-White-Lilac: #f8f8fc;
+  --relitalkcom-Periwinkle-Gray: #c7d2e9;
+
+  /* Gap */
+  --gap-6: 6px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-12_7: 12.7px;
+  --gap-19_6: 19.6px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-1: 1px;
+  --padding-8: 8px;
+  --padding-12: 12px;
+  --padding-15: 15px;
+  --padding-16: 16px;
+  --padding-17: 17px;
+  --padding-19: 19px;
+  --padding-20: 20px;
+  --padding-23: 23px;
+  --padding-24: 24px;
+  --padding-25: 25px;
+  --padding-26: 26px;
+  --padding-40: 40px;
+  --padding-47: 47px;
+  --padding-73: 73px;
+  --padding-112: 112px;
+  --padding-12_7: 12.7px;
+  --padding-6_5: 6.5px;
+  --padding-6_7: 6.7px;
+
+  /* BorderRadius */
+  --br-14: 14px;
+  --br-20: 20px;
+  --br-24: 24px;
+  --br-112: 112px;
+  --br-35418536: 35418536px;
+  --br-25_3: 25.3px;
+  --br-29_4: 29.4px;
+
+  /* Font */
+  --font-arial: Arial, Arial, sans-serif;
+  --font-geist: Geist, Arial, sans-serif;
+
+  /* FontSize */
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-29: 29px;
+  --fs-32: 32px;
+  --fs-12_7: 12.7px;
+  --fs-16_9: 16.9px;
+  --fs-19_6: 19.6px;
+
+  /* Borders */
+  --border-1: 1.2px solid var(--relitalk-site-revamplovableapp-Martinique-60);
+  --border-2: 1px solid var(--relitalk-site-revamplovableapp-Martinique-60);
+  --border-3: 1.1px solid var(--relitalk-site-revamplovableapp-Martinique-60);
+  --border-11: 1px solid var(--relitalk-site-revamplovableapp-Martinique-40);
+
+  /* Shadows */
+  --shadow-drop: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  --shadow-drop-1: 0px 0px 20px rgba(7, 0, 20, 0.1);
+  --shadow-drop-2: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+
+  /* Gradients */
+  --gradient-1: linear-gradient(
+    0deg,
+    var(--color-violet-4),
+    var(--color-violet-4-0)
+  );
+  --gradient-2: linear-gradient(
+    0deg,
+    var(--color-grey-91-2),
+    var(--color-violet-63)
+  );
+  --gradient-3: linear-gradient(
+    90deg,
+    var(--color-violet-63),
+    var(--color-violet-38)
+  );
+  --gradient-4: linear-gradient(
+    135deg,
+    var(--color-violet-58-30),
+    #100d27 50%,
+    var(--color-rose-52-20)
+  );
+  --gradient-5: linear-gradient(
+    0deg,
+    var(--color-black-80),
+    var(--color-black-0)
+  );
+  --gradient-6: linear-gradient(135deg, var(--sidebar-ring), var(--primary));
+
+  /* WidthHeights */
+  --height-11: 11px;
+  --height-16: 16px;
+  --height-48: 48px;
+  --height-64: 64px;
+  --height-68: 68px;
+  --height-16_9: 16.9px;
+  --height-25_3: 25.3px;
+  --height-306_2: 306.2px;
+  --height-59_1: 59.1px;
+  --height-calc100-31: calc(100% - 31px);
+  --min-w-171: 171px;
+  --width-16: 16px;
+  --width-64: 64px;
+  --width-745: 745px;
+  --width-1216: 1216px;
+  --width-19201: 1920px;
+  --width-16_9: 16.9px;
+  --width-25_3: 25.3px;
+  --width-364_5: 364.5px;
+  --width-59_1: 59.1px;
+  --width-66_1: 66.1px;
+
+  /* LineHeights */
+  --lh-18: 18px;
+  --lh-24: 24px;
+  --lh-29: 29px;
+  --lh-30: 30px;
+  --lh-36: 36px;
+  --lh-38: 38px;
+  --lh-16_9: 16.9px;
+  --lh-19_3: 19.3px;
+  --lh-25_3: 25.3px;
+  --lh-31_9: 31.9px;
+
+  /* Opacities */
+  --opacity-0: 0;
+
+  --left-0: 0px;
+  --left-13: 13px;
+  --left-1_1: 1.1px;
+  --top-0: 0px;
+  --top-1_1: 1.1px;
+  --top-15_5: 15.5px;
+}
